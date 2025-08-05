@@ -874,7 +874,7 @@ enum
 
 #if TARGET_OS_IOS
    [self setToolbarHidden:true animated:NO];
-   [[UIApplication sharedApplication] setStatusBarHidden:true withAnimation:UIStatusBarAnimationNone];
+   [[UIApplication sharedApplication] setStatusBarHidden:false withAnimation:UIStatusBarAnimationNone];
    [[UIApplication sharedApplication] setIdleTimerDisabled:true];
 #endif
 
